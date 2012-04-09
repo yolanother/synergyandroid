@@ -48,7 +48,7 @@ public class Synergy extends Activity {
 	private Thread mainLoopThread = null;
 	
 	static {
-		System.loadLibrary ("synergy-jni");
+		System.loadLibrary ("synergy");
 	}
 	
 	private class MainLoopThread extends Thread {

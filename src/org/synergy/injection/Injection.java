@@ -7,11 +7,11 @@ import org.synergy.base.Log;
 public final class Injection {
 
 	static {
-		System.loadLibrary ("synergy-jni");
+		System.loadLibrary ("synergy");
 	}
 	
 	/**
-	 * Functions imported from synergy-jni library
+	 * Functions imported from synergy library
 	 */
 	public static final native void start ();
 	public static native void stop ();

@@ -5,26 +5,26 @@
 
 	<TextView android:layout_width="fill_parent" 
               android:layout_height="wrap_content" 
-              android:text="Synergy Client name:"
+              android:text="@string/clientdesc"
                android:id="@+id/clientNameTextView"/>
 
     <EditText android:layout_width="fill_parent" 
               android:layout_height="wrap_content" 
               android:background="@android:drawable/editbox_background"
-              android:text="android"
+              android:text="@string/client"
               android:layout_below="@id/clientNameTextView"
               android:id="@+id/clientNameEditText"/>
 	
 	<TextView android:layout_width="fill_parent" 
               android:layout_height="wrap_content" 
-              android:text="Server IP/Hostname:"
+              android:text="@string/hostdesc"
               android:layout_below="@id/clientNameEditText"
               android:id="@+id/serverHostTextView"/>
 
     <EditText android:layout_width="fill_parent" 
               android:layout_height="wrap_content" 
               android:background="@android:drawable/editbox_background"
-              android:text="igsarmewmactck"
+              android:text="@string/host"
               android:layout_below="@id/serverHostTextView"
               android:id="@+id/serverHostEditText"/>
   
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/serverHostEditText"
             android:layout_alignParentRight="true"
-            android:text="Connect" 
+            android:text="@string/connect" 
             android:id="@+id/connectButton"/>
     
 <!--    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"-->

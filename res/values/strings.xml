@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
     <string name="app_name">Synergy</string>
+
+    <string name="clientdesc">Synergy Client Name:</string>
+    <string name="client">android</string>
+    <string name="hostdesc">Server IP/Hostname:</string>
+    <string name="host">igsarmewmactck</string>
+    <string name="connect">Connect</string>
 </resources>

@@ -18,9 +18,14 @@ include $(CLEAR_VARS)
 
 LOCAL_CFLAGS=-O3
 
-LOCAL_LDLIBS := -llog
+LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -llog
 
-LOCAL_MODULE    := synergy-jni
+LOCAL_SHARED_LIBRARIES := liblog
+
+LOCAL_STATIC_LIBRARIES := libc
+
+LOCAL_MODULE    := libsynergy
 LOCAL_SRC_FILES := synergy-jni.c suinput.c
+LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
